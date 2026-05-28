@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3DC365D1-D42D-4E40-1D25-11476346F372" name="AMBIENTE_LOCALIDADE">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<generatorID>A6597C4F-B3C0-0E21-6FE5-DEFC0D65CE61</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_BIOMELAB_LOCALIDADE_id_localidade" id="D217E3A6-C301-903B-92B5-814B1A75D1D9">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<generatorID>93D6935E-3BA2-0CF1-B76E-F95D98A67845</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B4351726-2906-9239-D633-89B1C122B863" referredColumn="3B499003-ABD1-3BD8-43EB-AACCD904CED2"/>
+</associations>
+</Column>
+<Column name="T_BIOMELAB_AMBIENTE_id_ambiente" id="049DE093-E279-36CD-BB60-C3999C7C6CC7">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<generatorID>62638D5F-4B70-5FB8-E398-34AAE3FC4DEE</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A651C36C-670C-D7AB-D671-80F41CEF2088" referredColumn="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9F9AD3DF-4078-C879-5994-88F27673353F" name="AMBIENTE_LOCALIDADE_T_BIOMELAB_LOCALIDADE_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<generatorID>BED42B7C-B0DF-D284-A01E-32FFA2D5CD47</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D217E3A6-C301-903B-92B5-814B1A75D1D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="466C0A9D-4A8D-1CFF-84CB-9600DBE9EC27" name="AMBIENTE_LOCALIDADE_T_BIOMELAB_AMBIENTE_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<generatorID>A418451A-496A-513F-A7FF-21267DDB7A07</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049DE093-E279-36CD-BB60-C3999C7C6CC7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

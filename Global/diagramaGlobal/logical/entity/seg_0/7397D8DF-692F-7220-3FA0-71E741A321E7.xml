@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7397D8DF-692F-7220-3FA0-71E741A321E7" name="T_BIOMELAB_ESTUDO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:15:19 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_estudo" id="B6CB144C-115F-C9D3-8D73-0B976A33C497">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:15:35 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_estudo" id="668240F5-B4AD-7D22-5FD4-14E6D433EF22">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:15:57 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="des_estudo" id="72829244-F81B-5826-C8EA-F6879986BCDF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:17:00 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ambiente" id="1F47418B-F857-F547-E0F4-CEDCED303C8F">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:48:51 UTC</createdTime>
+<generatorID>AA00788F-62D1-7DE7-756E-4A6FC9C5B6BE</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<referedAttribute>3C8C5190-7328-C6FF-F019-CC4BC85B4E3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDEA5C66-6B14-020D-9519-928FC71CF2FE" name="T_BIOMELAB_ESTUDO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:15:54 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6CB144C-115F-C9D3-8D73-0B976A33C497</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

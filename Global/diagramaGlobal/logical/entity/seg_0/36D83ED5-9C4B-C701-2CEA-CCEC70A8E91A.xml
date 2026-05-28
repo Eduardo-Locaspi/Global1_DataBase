@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36D83ED5-9C4B-C701-2CEA-CCEC70A8E91A" name="T_BIOMELAB_TESTES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 11:16:40 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_teste" id="371F312F-37CA-A3CF-101D-8E5FA3DC694D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 13:56:49 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_teste" id="F2090EF1-8577-912D-3CE3-CDB164BF20DA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 13:57:03 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio_teste" id="6B778720-65B6-6AAF-C5E0-3AB9D8FEBA2F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:18:12 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino_teste" id="328530AE-7922-1AF7-E129-2F083C364538">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:45:07 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="obs_gerais" id="B44C3E32-0ECB-F6DC-46DC-BCFA14F4BE3A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 13:57:37 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="conclusao" id="A9419B9B-4D84-710E-1B0A-80F66EB0F1AD">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:46:16 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estudo" id="DA28A7D9-562D-2F74-85BF-863F96C2AADC">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:48:26 UTC</createdTime>
+<generatorID>3D3C3F15-16A9-3B52-ADA1-7684700D127E</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>B6CB144C-115F-C9D3-8D73-0B976A33C497</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CAF74824-1D6C-5A75-25EC-17F52F697815" name="T_BIOMELAB_RESULTADO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 13:58:26 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>371F312F-37CA-A3CF-101D-8E5FA3DC694D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F163508D-C8AF-EEB7-C8A2-4FF56150AFE3" name="T_BIOMELAB_AMBIENTE">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>E0C4A042-D24B-F254-B7BC-0C6C70586DCE</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_ambiente" id="344E6CA3-EFE0-9947-31A9-60A2F51C9871">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>3C8C5190-7328-C6FF-F019-CC4BC85B4E3E</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_ambiente" id="2754235F-E1A3-D37C-3D1C-542AD9076491">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>F6AABEA0-A531-2FE4-371F-8ADD041DAE38</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_visibilidade" id="CC2D3C02-177B-8F27-F055-10793E622E7E">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>D071C6D1-F940-0682-70F3-82898A5C1B0B</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_ativo" id="9AEDD08E-BC7C-A76D-9A64-B8FAC11FD4DA">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>1FA9F9D8-3FAA-C452-31BF-81714BFC03D7</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BIOMELAB_USUARIO_id_usuario" id="88435D70-2E7A-EC13-A319-F20E57C27FE6">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>8F887028-BF49-C2E9-F37A-CB23CD062B80</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F93AFA4E-6465-2C11-B42B-3BCFC72228E5" referredColumn="5ADC01C4-02D3-DAD3-E1F6-120C4B617537"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A06FD9C-DAE8-74F6-0298-0C12F5D8061B" name="T_BIOMELAB_AMBIENTE_PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>7B0415E6-CBA9-311B-D27F-F5133154C674</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75B75035-048F-5FEB-4D3E-F238FED6A231" name="T_BIOMELAB_AMBIENTE__IDX">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AA00788F-62D1-7DE7-756E-4A6FC9C5B6BE</relationGeneratorID>
+</ind_PK_UK>
+<ind_PK_UK id="E9FEAD49-9028-FC83-FBF5-B6818774EA38" name="T_BIOMELAB_AMBIENTE_T_BIOMELAB_USUARIO_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:59 UTC</createdTime>
+<generatorID>9132D67E-C65F-96FE-C58C-A65DEBF1601F</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88435D70-2E7A-EC13-A319-F20E57C27FE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

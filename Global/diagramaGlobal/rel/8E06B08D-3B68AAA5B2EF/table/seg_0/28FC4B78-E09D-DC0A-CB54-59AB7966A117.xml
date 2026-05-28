@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="28FC4B78-E09D-DC0A-CB54-59AB7966A117" name="T_BIOMELAB_LOCALIDADE">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>41CAEE2C-9BE4-D607-B9A5-138D0AFEA3F0</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_localidade" id="3B499003-ABD1-3BD8-43EB-AACCD904CED2">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>A0713E84-48E8-1EC3-C70A-E52FD9963EB0</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_planeta" id="251F7350-199A-5400-D74E-CD43F51D2C47">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>EAF3B68F-075A-1395-1BA1-A4BB360E3E15</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="continente" id="0D975AFE-4334-AFF8-248A-E472DA046106">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>43971DED-ED3D-E6ED-B668-93F016217F21</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pais" id="06F02978-D39F-A7B2-F9AD-21A3A614E0B7">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>8F7F7E38-437A-7C95-C8ED-FF4F56E1B31B</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_habit" id="3C8B96E4-26E7-BCCD-8648-2B945F399834">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>64CFF2CC-04ED-A615-92A1-C0454191C20D</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4700F26F-0BC6-5855-36D7-569884553816" name="T_BIOMELAB_LOCALIDADE_PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>9AA35666-46AD-B1E3-BB9B-99CAB9B3F47A</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B499003-ABD1-3BD8-43EB-AACCD904CED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

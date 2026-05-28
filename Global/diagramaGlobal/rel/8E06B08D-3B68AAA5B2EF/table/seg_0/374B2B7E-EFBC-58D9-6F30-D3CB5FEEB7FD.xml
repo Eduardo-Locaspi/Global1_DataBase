@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="374B2B7E-EFBC-58D9-6F30-D3CB5FEEB7FD" name="T_BIOMELAB_TESTES">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>36D83ED5-9C4B-C701-2CEA-CCEC70A8E91A</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_teste" id="4248D323-40E6-E240-B44F-BFB3D0DAB076">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>371F312F-37CA-A3CF-101D-8E5FA3DC694D</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_teste" id="4EC9EB99-6C1F-1A0D-B258-EE0CD00894A0">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>F2090EF1-8577-912D-3CE3-CDB164BF20DA</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_inicio_teste" id="CA40F3AE-AF2B-5B0E-DF70-72BD58CA5789">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>6B778720-65B6-6AAF-C5E0-3AB9D8FEBA2F</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_termino_teste" id="8A81289C-981E-C3DB-1DDB-9DDA4766DE91">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>328530AE-7922-1AF7-E129-2F083C364538</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="obs_gerais" id="CB915730-85CE-815D-DD42-A23BEFE4A325">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>B44C3E32-0ECB-F6DC-46DC-BCFA14F4BE3A</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conclusao" id="1BBDA57C-0E59-8613-8B2F-3099A7718CE0">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>A9419B9B-4D84-710E-1B0A-80F66EB0F1AD</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BIOMELAB_ESTUDO_id_estudo" id="5473E1B2-0998-2311-0CF8-E232DFF1B01F">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>DA28A7D9-562D-2F74-85BF-863F96C2AADC</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="373341E9-0AE9-E29D-CF0A-128B2665DC56" referredColumn="38E04BBA-031A-55F8-CAAA-151D883C0217"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E669685C-88F6-0378-7DC0-C66A1B5F170F" name="T_BIOMELAB_TESTES_PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>CAF74824-1D6C-5A75-25EC-17F52F697815</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4248D323-40E6-E240-B44F-BFB3D0DAB076"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="90F33995-C6B5-8E69-66BB-BFD8C08209EF" name="T_BIOMELAB_TESTES_T_BIOMELAB_ESTUDO_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:59 UTC</createdTime>
+<generatorID>3D3C3F15-16A9-3B52-ADA1-7684700D127E</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5473E1B2-0998-2311-0CF8-E232DFF1B01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

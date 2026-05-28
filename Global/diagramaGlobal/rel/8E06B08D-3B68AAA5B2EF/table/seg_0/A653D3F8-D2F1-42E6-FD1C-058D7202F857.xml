@@ -1,0 +1,142 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A653D3F8-D2F1-42E6-FD1C-058D7202F857" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>DAC62DE3-BBCF-45C8-A276-716AD0C2352F</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_conjunto_propriedades" id="61071FB7-BD62-937E-18C4-88FC9681835D">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>B0148BC0-90BA-B70F-7920-3117AD805192</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_temperatura" id="44348A5A-D628-7F1E-0A33-8A061E20DA88">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>1C1FF410-E64B-AB2E-9628-588C44317C44</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,20,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_umidade" id="0D1FB69A-82DA-869E-AEBF-9BB0431ACC4E">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>E8C715F4-B211-7A2B-EC9F-CE7D2A241ADA</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>60</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,60,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_luminosidade" id="65FB91CD-F6AD-56E8-134B-FAF7D6A9B503">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>D98E7AEB-B66A-8E33-DF53-8A6A5BEBAA3C</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,17,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_gravidade" id="AC7EB5CA-2AA4-CE62-CEC1-0A29BD55FB1B">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>704913B3-37B1-1DB6-476E-AD9963ADF755</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,20,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pressao_atmosferica" id="4931B593-C12D-6118-1762-8B7B7489ADC3">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>05580218-E074-7AA1-1152-A70CCD72AF7D</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BIOMELAB_AMBIENTE_id_ambiente" id="A44EA4F3-3FB3-E632-50EC-B50701C9CD27">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>DC63F8D1-2AE5-1E06-EFAE-385324D06818</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="39CA5440-5AF4-A9C6-011A-E5B35D50542F" referredColumn="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95D784D7-A430-1ABC-B343-C7CE467E8C7A" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES_PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>17561790-EDE3-6FA2-BFD1-98CE1FBBE8E6</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="61071FB7-BD62-937E-18C4-88FC9681835D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="642425A3-605D-BCC9-024F-CDA0131B343B" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES__IDX">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:59 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5ECA9FA0-91D0-DB4F-357C-9BFCF5D3DE68</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A44EA4F3-3FB3-E632-50EC-B50701C9CD27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="731E4719-9EB2-C46D-ABD1-018FFD28E6CD" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES_T_BIOMELAB_AMBIENTE_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:59 UTC</createdTime>
+<generatorID>5ECA9FA0-91D0-DB4F-357C-9BFCF5D3DE68</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A44EA4F3-3FB3-E632-50EC-B50701C9CD27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAC62DE3-BBCF-45C8-A276-716AD0C2352F" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-26 19:51:51 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_conjunto_propriedades" id="B0148BC0-90BA-B70F-7920-3117AD805192">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-26 20:03:40 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_temperatura" id="1C1FF410-E64B-AB2E-9628-588C44317C44">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-26 20:04:12 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,20,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_umidade" id="E8C715F4-B211-7A2B-EC9F-CE7D2A241ADA">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-26 20:05:51 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>60</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,60,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_luminosidade" id="D98E7AEB-B66A-8E33-DF53-8A6A5BEBAA3C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:13:03 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>17</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,17,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_gravidade" id="704913B3-37B1-1DB6-476E-AD9963ADF755">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-27 01:40:11 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,20,5</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pressao_atmosferica" id="05580218-E074-7AA1-1152-A70CCD72AF7D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 12:57:25 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,15,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ambiente" id="DC63F8D1-2AE5-1E06-EFAE-385324D06818">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-27 14:29:22 UTC</createdTime>
+<generatorID>5ECA9FA0-91D0-DB4F-357C-9BFCF5D3DE68</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<referedAttribute>3C8C5190-7328-C6FF-F019-CC4BC85B4E3E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="17561790-EDE3-6FA2-BFD1-98CE1FBBE8E6" name="T_BIOMELAB_PERSONALIZADA_AMBIENTE PK">
+<createdBy>Pichau</createdBy>
+<createdTime>2026-05-26 22:28:17 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B0148BC0-90BA-B70F-7920-3117AD805192</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

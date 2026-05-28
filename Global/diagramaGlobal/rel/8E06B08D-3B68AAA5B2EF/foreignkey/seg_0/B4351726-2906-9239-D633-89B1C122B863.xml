@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B4351726-2906-9239-D633-89B1C122B863" containerWithKeyObject="3DC365D1-D42D-4E40-1D25-11476346F372" localFKIndex="9F9AD3DF-4078-C879-5994-88F27673353F" name="AMBIENTE_LOCALIDADE_T_BIOMELAB_LOCALIDADE_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<generatorID>BED42B7C-B0DF-D284-A01E-32FFA2D5CD47</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<referredTableLongName>T_BIOMELAB_LOCALIDADE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>28FC4B78-E09D-DC0A-CB54-59AB7966A117</referredTableID>
+<keyObject>4700F26F-0BC6-5855-36D7-569884553816</keyObject>
+<referredKeyID>4700F26F-0BC6-5855-36D7-569884553816</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_localidade</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

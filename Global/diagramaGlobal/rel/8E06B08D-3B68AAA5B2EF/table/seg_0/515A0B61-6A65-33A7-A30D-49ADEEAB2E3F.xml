@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="515A0B61-6A65-33A7-A30D-49ADEEAB2E3F" name="T_BIOMELAB_ESTUDO">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>7397D8DF-692F-7220-3FA0-71E741A321E7</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estudo" id="38E04BBA-031A-55F8-CAAA-151D883C0217">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>B6CB144C-115F-C9D3-8D73-0B976A33C497</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_estudo" id="E8193F1A-A159-BEC2-5015-03CBE953E965">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>668240F5-B4AD-7D22-5FD4-14E6D433EF22</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="des_estudo" id="341C3067-E4B4-025A-2526-7B77F29E147B">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>72829244-F81B-5826-C8EA-F6879986BCDF</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BIOMELAB_AMBIENTE_id_ambiente" id="9EC0622B-B10B-42D2-C532-B160ED843963">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>1F47418B-F857-F547-E0F4-CEDCED303C8F</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63FB6B6D-B0E7-21A1-0787-41CDF3CE61AB" referredColumn="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7CBBDAA7-5C4A-EA1F-1712-FEB2CB7186C9" name="T_BIOMELAB_ESTUDO_PK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:58 UTC</createdTime>
+<generatorID>FDEA5C66-6B14-020D-9519-928FC71CF2FE</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38E04BBA-031A-55F8-CAAA-151D883C0217"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4EF53AAB-F467-AFD9-0461-3DA4573A32B8" name="T_BIOMELAB_ESTUDO__IDX">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:59 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AA00788F-62D1-7DE7-756E-4A6FC9C5B6BE</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9EC0622B-B10B-42D2-C532-B160ED843963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64E44F86-5728-03AC-14D3-F654E29259A3" name="T_BIOMELAB_ESTUDO_T_BIOMELAB_AMBIENTE_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-28 01:49:59 UTC</createdTime>
+<generatorID>AA00788F-62D1-7DE7-756E-4A6FC9C5B6BE</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EC0622B-B10B-42D2-C532-B160ED843963"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
