@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="373341E9-0AE9-E29D-CF0A-128B2665DC56" containerWithKeyObject="374B2B7E-EFBC-58D9-6F30-D3CB5FEEB7FD" localFKIndex="90F33995-C6B5-8E69-66BB-BFD8C08209EF" name="T_BIOMELAB_TESTES_T_BIOMELAB_ESTUDO_FK">
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="373341E9-0AE9-E29D-CF0A-128B2665DC56" containerWithKeyObject="374B2B7E-EFBC-58D9-6F30-D3CB5FEEB7FD" localFKIndex="90F33995-C6B5-8E69-66BB-BFD8C08209EF" name="T_BIOMELAB_TESTE_T_BIOMELAB_ESTUDO_FK">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:49:59 UTC</createdTime>
 <generatorID>3D3C3F15-16A9-3B52-ADA1-7684700D127E</generatorID>

@@ -34,6 +34,10 @@
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="459" y="215" width="170" height="110"/>
 </OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="CC4FEEDE-A31A-E270-B230-A8ECA100715E" otype="Entity" vid="D6BA8592-7115-7339-9BF8-CFDA6A8ED705">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="1404" y="623" width="279" height="129"/>
+</OView>
 <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="DAC62DE3-BBCF-45C8-A276-716AD0C2352F" otype="Entity" vid="F5DB8512-81FE-1104-A109-AA26CF70A824">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <bounds x="948" y="369" width="375" height="170"/>
@@ -44,6 +48,15 @@
 </OView>
 </objectViews>
 <connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="1D5C058C-7A7A-D6A6-4D02-2E0D2958AC65" otype="Relation" vid_source="4B13BB42-4E41-4640-39E1-DDF13A6BD2D5" vid_target="D6BA8592-7115-7339-9BF8-CFDA6A8ED705">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="1269" y="687"/>
+<point x="1404" y="687"/>
+</points>
+</Connector>
 <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3D3C3F15-16A9-3B52-ADA1-7684700D127E" otype="Relation" vid_source="D1CAFB71-CC10-6FF7-3F42-3B39401E89E0" vid_target="4B13BB42-4E41-4640-39E1-DDF13A6BD2D5">
 <hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
 <backgroundColor>-16777216</backgroundColor>
@@ -96,15 +109,6 @@
 <points>
 <point x="559" y="149"/>
 <point x="559" y="215"/>
-</points>
-</Connector>
-<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="C1241310-E631-D8DA-C64A-C93B40E18164" otype="Relation" vid_source="4B13BB42-4E41-4640-39E1-DDF13A6BD2D5" vid_target="F5DB8512-81FE-1104-A109-AA26CF70A824">
-<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
-<backgroundColor>-16777216</backgroundColor>
-<lineWidth>1</lineWidth>
-<points>
-<point x="1131" y="591"/>
-<point x="1131" y="539"/>
 </points>
 </Connector>
 </connectors>

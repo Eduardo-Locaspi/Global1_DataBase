@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C6DD4672-828E-0C9D-8442-AF5F00E9D4FF" containerWithKeyObject="ACA81AC2-AF68-1B25-6EFB-EF6CCB14AC4F" localFKIndex="A54F97EB-5CE8-621F-04C8-05E26F3EA467" name="T_BIOMELAB_CONJ_PROPS_SNAPSHOT_T_BIOMELAB_TESTE_FK">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-29 20:34:08 UTC</createdTime>
+<generatorID>1D5C058C-7A7A-D6A6-4D02-2E0D2958AC65</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<referredTableLongName>T_BIOMELAB_TESTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>374B2B7E-EFBC-58D9-6F30-D3CB5FEEB7FD</referredTableID>
+<keyObject>E669685C-88F6-0378-7DC0-C66A1B5F170F</keyObject>
+<referredKeyID>E669685C-88F6-0378-7DC0-C66A1B5F170F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_teste</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

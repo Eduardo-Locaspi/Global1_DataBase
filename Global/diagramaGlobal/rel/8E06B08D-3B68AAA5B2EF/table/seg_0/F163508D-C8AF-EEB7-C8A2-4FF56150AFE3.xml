@@ -110,9 +110,9 @@
 <colUsage columnID="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="68F082F1-F296-572C-1F9A-465C1ECBD54F" name="T_BIOMELAB_AMBIENTE__IDX">
-<createdBy>labsfiap</createdBy>
-<createdTime>2026-05-29 12:20:29 UTC</createdTime>
+<ind_PK_UK id="3D3F883D-C015-A8ED-E4EC-01C5821CE46F" name="T_BIOMELAB_AMBIENTE__IDX">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-29 20:34:08 UTC</createdTime>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>

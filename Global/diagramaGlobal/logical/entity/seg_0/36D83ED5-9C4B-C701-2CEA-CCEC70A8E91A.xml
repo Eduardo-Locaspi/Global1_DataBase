@@ -108,18 +108,17 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_conj_props" id="6597671B-E601-896E-E07F-807E21B341ED">
-<createdBy>labsfiap</createdBy>
-<createdTime>2026-05-29 12:14:53 UTC</createdTime>
-<generatorID>C1241310-E631-D8DA-C64A-C93B40E18164</generatorID>
+<Attribute name="fk_conj_props_snapshot" id="3F3F443B-2FFE-B7A8-F35B-C7E397398445">
+<createdBy>Dudu</createdBy>
+<createdTime>2026-05-29 20:28:43 UTC</createdTime>
+<generatorID>1D5C058C-7A7A-D6A6-4D02-2E0D2958AC65</generatorID>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
 <engineerTo>
 <item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
 </engineerTo>
-<referedAttribute>B0148BC0-90BA-B70F-7920-3117AD805192</referedAttribute>
+<referedAttribute>F7A19683-B289-5AE0-FE29-AAD1AAA8F92C</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

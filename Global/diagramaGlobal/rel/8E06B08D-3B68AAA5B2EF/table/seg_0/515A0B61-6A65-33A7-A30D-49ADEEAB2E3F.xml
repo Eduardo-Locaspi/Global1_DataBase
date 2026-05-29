@@ -53,7 +53,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
 <colAssociation fkAssociation="63FB6B6D-B0E7-21A1-0787-41CDF3CE61AB" referredColumn="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
