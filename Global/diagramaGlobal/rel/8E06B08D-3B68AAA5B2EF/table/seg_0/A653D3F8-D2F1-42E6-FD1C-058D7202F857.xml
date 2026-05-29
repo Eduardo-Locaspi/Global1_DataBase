@@ -1,14 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A653D3F8-D2F1-42E6-FD1C-058D7202F857" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A653D3F8-D2F1-42E6-FD1C-058D7202F857" name="T_BIOMELAB_CONJ_PROPS">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:49:58 UTC</createdTime>
 <generatorID>DAC62DE3-BBCF-45C8-A276-716AD0C2352F</generatorID>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
+<ordsAlias>t_biomelab_conjunto_propriedades</ordsAlias>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_conjunto_propriedades" id="61071FB7-BD62-937E-18C4-88FC9681835D">
+<Column name="id_conj_props" id="61071FB7-BD62-937E-18C4-88FC9681835D">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:49:58 UTC</createdTime>
 <generatorID>B0148BC0-90BA-B70F-7920-3117AD805192</generatorID>
@@ -127,7 +128,7 @@
 <colUsage columnID="A44EA4F3-3FB3-E632-50EC-B50701C9CD27"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="731E4719-9EB2-C46D-ABD1-018FFD28E6CD" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES_T_BIOMELAB_AMBIENTE_FK">
+<ind_PK_UK id="731E4719-9EB2-C46D-ABD1-018FFD28E6CD" name="T_BIOMELAB_CONJ_PROPS_ATUAL_T_BIOMELAB_AMBIENTE_FK">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:49:59 UTC</createdTime>
 <generatorID>5ECA9FA0-91D0-DB4F-357C-9BFCF5D3DE68</generatorID>

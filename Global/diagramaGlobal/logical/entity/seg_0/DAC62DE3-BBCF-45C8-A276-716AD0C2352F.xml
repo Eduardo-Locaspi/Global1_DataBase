@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAC62DE3-BBCF-45C8-A276-716AD0C2352F" name="T_BIOMELAB_CONJUNTO_PROPRIEDADES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAC62DE3-BBCF-45C8-A276-716AD0C2352F" name="T_BIOMELAB_CONJ_PROPS">
 <createdBy>Pichau</createdBy>
 <createdTime>2026-05-26 19:51:51 UTC</createdTime>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_conjunto_propriedades" id="B0148BC0-90BA-B70F-7920-3117AD805192">
+<Attribute name="id_conj_props" id="B0148BC0-90BA-B70F-7920-3117AD805192">
 <createdBy>Pichau</createdBy>
 <createdTime>2026-05-26 20:03:40 UTC</createdTime>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
@@ -100,7 +100,7 @@
 <dataTypeScale>2</dataTypeScale>
 <ownDataTypeParameters>,15,2</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ambiente" id="DC63F8D1-2AE5-1E06-EFAE-385324D06818">
+<Attribute name="fk_ambiente" id="DC63F8D1-2AE5-1E06-EFAE-385324D06818">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-27 14:29:22 UTC</createdTime>
 <generatorID>5ECA9FA0-91D0-DB4F-357C-9BFCF5D3DE68</generatorID>

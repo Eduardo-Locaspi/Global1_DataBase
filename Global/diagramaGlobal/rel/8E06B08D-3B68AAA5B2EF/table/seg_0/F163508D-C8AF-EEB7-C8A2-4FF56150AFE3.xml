@@ -71,6 +71,31 @@
 <colAssociation fkAssociation="F93AFA4E-6465-2C11-B42B-3BCFC72228E5" referredColumn="5ADC01C4-02D3-DAD3-E1F6-120C4B617537"/>
 </associations>
 </Column>
+<Column name="T_BIOMELAB_AMBIENTE_id_ambiente" id="9BF2EC02-42D2-2A71-3391-1D2C3046C256">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 11:41:57 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BIOMELAB_CONJ_PROPS_ATUAL_id_conjunto_propriedades" id="B40C8956-7627-44D9-C3D3-010FAA470249">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 11:42:28 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="3A06FD9C-DAE8-74F6-0298-0C12F5D8061B" name="T_BIOMELAB_AMBIENTE_PK">
@@ -85,9 +110,9 @@
 <colUsage columnID="344E6CA3-EFE0-9947-31A9-60A2F51C9871"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="75B75035-048F-5FEB-4D3E-F238FED6A231" name="T_BIOMELAB_AMBIENTE__IDX">
-<createdBy>Dudu</createdBy>
-<createdTime>2026-05-28 02:50:13 UTC</createdTime>
+<ind_PK_UK id="68F082F1-F296-572C-1F9A-465C1ECBD54F" name="T_BIOMELAB_AMBIENTE__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 12:20:29 UTC</createdTime>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>

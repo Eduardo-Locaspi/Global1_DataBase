@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_localidade" id="93D6935E-3BA2-0CF1-B76E-F95D98A67845">
+<Attribute name="fk_localidade" id="93D6935E-3BA2-0CF1-B76E-F95D98A67845">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 02:47:13 UTC</createdTime>
 <generatorID>BED42B7C-B0DF-D284-A01E-32FFA2D5CD47</generatorID>
@@ -30,7 +30,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ambiente" id="62638D5F-4B70-5FB8-E398-34AAE3FC4DEE">
+<Attribute name="fk_ambiente" id="62638D5F-4B70-5FB8-E398-34AAE3FC4DEE">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 02:49:02 UTC</createdTime>
 <generatorID>A418451A-496A-513F-A7FF-21267DDB7A07</generatorID>

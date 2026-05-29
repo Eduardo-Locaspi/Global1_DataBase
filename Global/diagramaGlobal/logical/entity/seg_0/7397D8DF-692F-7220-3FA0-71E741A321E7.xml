@@ -54,7 +54,7 @@
 <dataTypeSize>200</dataTypeSize>
 <ownDataTypeParameters>200,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_ambiente" id="1F47418B-F857-F547-E0F4-CEDCED303C8F">
+<Attribute name="fk_ambiente" id="1F47418B-F857-F547-E0F4-CEDCED303C8F">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:48:51 UTC</createdTime>
 <generatorID>AA00788F-62D1-7DE7-756E-4A6FC9C5B6BE</generatorID>

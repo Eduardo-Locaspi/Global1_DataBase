@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36D83ED5-9C4B-C701-2CEA-CCEC70A8E91A" name="T_BIOMELAB_TESTES">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="36D83ED5-9C4B-C701-2CEA-CCEC70A8E91A" name="T_BIOMELAB_TESTE">
 <createdBy>labsfiap</createdBy>
 <createdTime>2026-05-27 11:16:40 UTC</createdTime>
 <ownerDesignName>diagramaGlobal</ownerDesignName>
@@ -93,7 +93,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_estudo" id="DA28A7D9-562D-2F74-85BF-863F96C2AADC">
+<Attribute name="fk_estudo" id="DA28A7D9-562D-2F74-85BF-863F96C2AADC">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:48:26 UTC</createdTime>
 <generatorID>3D3C3F15-16A9-3B52-ADA1-7684700D127E</generatorID>
@@ -105,6 +105,21 @@
 <referedAttribute>B6CB144C-115F-C9D3-8D73-0B976A33C497</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_conj_props" id="6597671B-E601-896E-E07F-807E21B341ED">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 12:14:53 UTC</createdTime>
+<generatorID>C1241310-E631-D8DA-C64A-C93B40E18164</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<engineerTo>
+<item key="8E06B08D-2A9A-4DD7-D520-3B68AAA5B2EF" value="true"/>
+</engineerTo>
+<referedAttribute>B0148BC0-90BA-B70F-7920-3117AD805192</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>

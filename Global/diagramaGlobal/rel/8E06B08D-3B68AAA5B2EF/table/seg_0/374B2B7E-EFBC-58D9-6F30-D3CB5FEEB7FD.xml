@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="374B2B7E-EFBC-58D9-6F30-D3CB5FEEB7FD" name="T_BIOMELAB_TESTES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="374B2B7E-EFBC-58D9-6F30-D3CB5FEEB7FD" name="T_BIOMELAB_TESTE">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:49:58 UTC</createdTime>
 <generatorID>36D83ED5-9C4B-C701-2CEA-CCEC70A8E91A</generatorID>
@@ -96,6 +96,22 @@
 <colAssociation fkAssociation="373341E9-0AE9-E29D-CF0A-128B2665DC56" referredColumn="38E04BBA-031A-55F8-CAAA-151D883C0217"/>
 </associations>
 </Column>
+<Column name="T_BIOMELAB_CONJ_PROPS_id_conj_props" id="5DE0F49C-89EC-2B69-1A97-B552446AABBF">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 12:20:29 UTC</createdTime>
+<generatorID>6597671B-E601-896E-E07F-807E21B341ED</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AF1BE6E-902D-B389-5F41-461E737DB060" referredColumn="61071FB7-BD62-937E-18C4-88FC9681835D"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="E669685C-88F6-0378-7DC0-C66A1B5F170F" name="T_BIOMELAB_TESTES_PK">
@@ -110,6 +126,17 @@
 <colUsage columnID="4248D323-40E6-E240-B44F-BFB3D0DAB076"/>
 </indexColumnUsage>
 </ind_PK_UK>
+<ind_PK_UK id="318BD32F-2466-F3A3-7DBC-A2DFECABC275" name="T_BIOMELAB_TESTE__IDX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 12:20:29 UTC</createdTime>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>C1241310-E631-D8DA-C64A-C93B40E18164</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="5DE0F49C-89EC-2B69-1A97-B552446AABBF"/>
+</indexColumnUsage>
+</ind_PK_UK>
 <ind_PK_UK id="90F33995-C6B5-8E69-66BB-BFD8C08209EF" name="T_BIOMELAB_TESTES_T_BIOMELAB_ESTUDO_FK">
 <createdBy>Dudu</createdBy>
 <createdTime>2026-05-28 01:49:59 UTC</createdTime>
@@ -119,6 +146,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="5473E1B2-0998-2311-0CF8-E232DFF1B01F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B26E8DF8-67DE-7E2F-8CA9-07FB891512CF" name="T_BIOMELAB_TESTE_T_BIOMELAB_CONJ_PROPS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2026-05-29 12:20:29 UTC</createdTime>
+<generatorID>C1241310-E631-D8DA-C64A-C93B40E18164</generatorID>
+<ownerDesignName>diagramaGlobal</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DE0F49C-89EC-2B69-1A97-B552446AABBF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
